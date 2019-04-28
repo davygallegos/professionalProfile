@@ -1,0 +1,13 @@
+header .row {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  section {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
+  iframe {
+    height: 850px;
+  }

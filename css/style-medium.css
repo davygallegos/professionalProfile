@@ -1,0 +1,54 @@
+html {
+    font-size: 16px;
+  }
+  
+    
+  header nav {
+    text-align: right;
+    margin-right: 26px;
+  }
+  
+  
+  .online-courses {
+    text-align: left;
+  }
+  
+    
+  .flex-item-empty {
+    order: 3;
+  }
+  
+  .flex-item-txt {
+    order: 2;
+  }
+  
+  .flex-item-img {
+    order: 1;
+  }
+  
+    
+  .flex-container-about {
+    align-items: stretch;
+  }
+  
+    
+  .profile-image {
+    margin: 0 0 0 30px;
+    padding: 0;
+  }
+  
+  .logo {
+    margin-left: 42px;
+  }
+  
+  .image-link {
+    margin-top: 0;
+  }
+  .authority {
+    width: 90px;
+  }
+  
+    
+  iframe {
+    height: 650px;
+  }

@@ -1,0 +1,277 @@
+html {
+    font-size: 14px;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #333;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  h1 {
+    color: #9068be;
+    font-size: 2.25rem;
+  }
+  
+  h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 1.875rem;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    /* 24px */
+    margin-bottom: 14px;
+    margin-top: 0;
+  }
+  
+  hr {
+      border: 0;
+      margin: 20px auto;
+      height: 1px;
+      background: #9068be;
+      background-image: linear-gradient(to right,  #b3b3b3, #333,  #b3b3b3);
+  }
+  
+  a {
+    color: #333;
+  }
+  
+  a:hover {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .dates, .description {
+    margin-bottom: 0;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  
+  
+  .return-to-top {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: rgba(53,66,74,0.8);
+  }
+  
+  .return-to-top:hover {
+    background-color: rgba(53,66,74,1);
+  }
+  
+  .return-to-top i {
+    color:#fff;
+    font-size:20px;
+  }
+  
+  
+  
+  /* profile image container */
+  
+  .flex-item-img {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .profile-image {
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+    width: 100px;
+  }
+  
+  .logo {
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+    width: 70px;
+  }
+  
+  /* Certification icon */
+  
+  .authority {
+    height: auto;
+    max-width: 100%;
+    width: 70px;
+  }
+  
+  
+  
+  .cover-1 {
+    background-image: url(../images/SwissTown.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    /* Shadow with a blur effect */
+    text-shadow: -1px 0 2px #000;
+  }
+  
+  .tagline {
+    color: #fff;
+  }
+  
+  
+  
+  header {
+    background: #35424a;
+    border-bottom: 0.25rem solid #9068be;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    padding: 1rem 0;
+  }
+  
+  header a {
+    color: #fff;
+    transition: .3s;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  
+  header li {
+    display: inline;
+    padding: 1rem;
+  }
+  
+  /* Highlight current navigation link (i.e. Home, About, Resume, ...) */
+  
+  .current {
+    color: #9068be;
+  }
+  
+  header nav {
+    text-align: center;
+  }
+  
+  
+  
+  iframe {
+    border: none;
+    height: 260px;
+    width: 100%;
+  }
+  
+  
+  
+  .online-courses {
+    text-align: center;
+  }
+  
+  /*-------------------------- ONLINE COURSES IMAGES --------------------------*/
+  
+  .image-link {
+    margin-top: 14px;
+    display: inline-block;
+    opacity: 0.8;
+  }
+  
+  .image-link:hover {
+    opacity: 1.0;
+  }
+  
+  
+  
+  footer {
+    background-color: #35424a;
+    padding: .5rem 1rem;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  footer p, footer a {
+    color: #ccc;
+  }
+  
+  
+  
+  .sidebar {
+    color: #ccc;
+    text-align: center;
+  }
+  
+  .sidebar h3 {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .sidebar a {
+    color: #ccc;
+    /* Set to inline-block in order for the text-align to have an effect on it */
+    display: inline-block;
+    margin: 1rem;
+    text-decoration: none;
+    transition: .3s;
+  }
+  
+  .sidebar a:hover {
+    color: #fff;
+  }
+  
+  
+  
+  .light-bg {
+    background: #e1e8f0;
+  }
+  
+  .violet-bg {
+    /*background: #35424a;*/
+    background: #9068be;
+  }
+  
+  .red-bg {
+    background: #9068be;
+  }
+  
+  .center {
+    display: block;
+    margin: auto;
+  }
+  
+  /* Fade-in image load */
+  .fade-in {
+    animation-name: fadeIn;
+    animation-duration: 1.3s;
+    animation-timing-function: cubic-bezier(0, 0, 0.4, 1);
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  .cover-2 {
+    background-image: url(../images/David.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    /* Shadow with a blur effect */
+    text-shadow: -1px 0 2px black;
+  }
