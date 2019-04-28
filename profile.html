@@ -111,15 +111,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script>
-        // jQuery Methods
-        // --------------
-        // .click(): Bind an event handler to the "click" JavaScript event, or trigger that event on an element.
-        // .scroll(): Bind an event handler to the "scroll" JavaScript event, or trigger that event on an element.
-        // .scrollTop(): Get the current vertical position of the scroll bar for the first element in the set of matched elements.
-        // .fadeIn(): Display the matched elements by fading them to opaque.
-        // .fadeOut(): Hide the matched elements by fading them to transparent.
-        // .animate(): Perform a custom animation of a set of CSS properties.
-        // Display/Hide return to top button
         $(window).scroll(function () {
             // Height (in pixels) of the browser window viewport including, if
             // rendered, the horizontal scrollbar
@@ -134,9 +125,6 @@
         // Return to top
         $('.return-to-top').click(function () {
             $('html').animate({
-                // scrollTop is a property of the DOM object */
-                // Return the scrollTop property: element.scrollTop
-                // Set the scrollTop property: element.scrollTop = pixels
                 scrollTop: 0
             }, 500);
         });
